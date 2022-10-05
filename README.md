@@ -5,10 +5,10 @@ The project is divided into five folders containing an assignment each. Every fo
 
 Assignment 1 *********************************
 
-  • Implementing a Monte-Carlo method using Euler's scheme to price an European call option, when the underlying stock follows a constant elasticity of 
-  variance model (CEV model). 
+     Implementing a Monte-Carlo method using Euler's scheme to price an European call option, when the underlying stock follows a constant elasticity of 
+     variance model (CEV model). 
   
-  •The experiment include: how the error converges with respect to discretization error and sample error, 
+  The experiment include: how the error converges with respect to discretization error and sample error, 
   implementing antithetic variates and how the option price and gamma are related.
 
 Assignment 2 *********************************
