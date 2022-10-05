@@ -3,26 +3,37 @@ This project is based on the course: "Computational Finance: Pricing and Valuati
 
 The project is divided into five folders containing an assignment each. Every folder contains the assignment description named: "Assignment{x}.pdf", a solution to the assignment named "Solution{x}.pdf" or "Solution{x}.mlx" (for MATLAB live scripts), aswell as all the helper functions used in the assignment. 
 
-Assignment 1 *********************************
+*********************************
+Assignment 1
 
-     Implementing a Monte-Carlo method using Euler's scheme to price an European call option, when the underlying stock follows a constant elasticity of 
-     variance model (CEV model). 
-  
-  The experiment include: how the error converges with respect to discretization error and sample error, 
-  implementing antithetic variates and how the option price and gamma are related.
+Implementing a Monte-Carlo method using Euler's scheme to price an European call option, when the underlying stock follows a constant elasticity of variance model (CEV model). 
 
-Assignment 2 *********************************
+The experiment includes: how the error converges with respect to discretization error and sample error, implementing antithetic variates and how the option price and gamma are related.
 
-  Implementing a (both explicit and implicit) finite difference method to price an European call option, when the underlying stock follows a 
-  constant elasticity of variance model (CEV model). The experiment include: how the error converges with respect to spatial and time step, 
-  stability analysis of the explicit and implicit finite difference method, analysis of the time complexity and how the option price and gamma are related.
+*********************************
+Assignment 2
 
-Assignment 3 *********************************
+Implementing a (both explicit and implicit) finite difference method to price an European call option, when the underlying stock follows a constant elasticity of variance model (CEV model). 
 
-  Compare the Monte-Carlo method with the finite difference method. The analysis include comparison of convergence, time complexity and computations 
-  of the greeks (delta).
+The experiment includes: how the error converges with respect to spatial and time step, stability analysis of the explicit and implicit finite difference method, analysis of the time complexity and how the option price and gamma are related.
 
-Assignment 4 *********************************
+*********************************
+Assignment 3 
 
-Assignment 5 *********************************
+Compare the Monte-Carlo method with the finite difference method. The analysis includes comparison of convergence, time complexity and computations 
+of the greeks (delta).
+
+*********************************
+Assignment 4
+
+Modify your Monte-Carlo code to price a simple chooser option. Also implement a quasi Monte-Carlo using both the low discrepancy Halton and the Sobol sequence to increase the convergence rate.
+
+The experiment includes: convergence analysis of both the pseudo and the quasi Monte-Carlo method and computations of the greeks (delta).
+
+*********************************
+Assignment 5 
+
+Implement a finite difference solver to price American options. Also implement both the PSOR and the operator splitting method.
+
+*********************************
 
