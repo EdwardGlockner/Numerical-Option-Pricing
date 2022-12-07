@@ -59,8 +59,8 @@ Here we compare the Monte-Carlo method with the finite difference methods. The a
 Below are images of the computed deltas using implicit finite difference method and monte-carlo method (in that order from left to right):
 
 <div class="align-center"> 
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%203/Images/Implicit_Delta.png" width="420" height="350"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%203/Images/MC_Delta.png" width="420" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%203/Images/Implicit_Delta.png" width="410" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%203/Images/MC_Delta.png" width="410" height="350"/>
 </div>
 
 -----------
@@ -74,8 +74,8 @@ The experiment includes: convergence analysis of both the pseudo and the quasi M
 Below are images of the error analysis using pseudo and quasi random numbers, and of computations of the delta (in that order from left to right):
 
 <div class="align-center"> 
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/all.png" width="420" height="330"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/delta.png" width="420" height="330"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/all.png" width="410" height="330"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/delta.png" width="410" height="330"/>
 </div>
 
 -----------
