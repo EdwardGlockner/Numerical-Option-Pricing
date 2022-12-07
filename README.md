@@ -12,7 +12,6 @@
   * [Prerequisites](#prerequisites)
   * [Run Locally](#run-locally)
 
-- [Usage](#usage)
 - [Contact](#contact)
 - [Links](#links)
   
@@ -29,7 +28,7 @@ The project is divided into five folders containing one assignment each. Every f
 
 -----------
 <!-- Assignment 1 European options using monte-carlo methods -->
-###  Assignment 1 European options using monte-carlo methods
+### Assignment 1 European options using monte-carlo methods
 
 Here we implement a Monte-Carlo method using Euler's scheme to price a European call option assuming the underlying stock follows a constant elasticity of variance model (CEV model), see: https://en.wikipedia.org/wiki/Constant_elasticity_of_variance_model.
 
@@ -43,12 +42,12 @@ Here we implement a (both explicit and implicit) finite difference method to pri
 
 The experiment includes: how the error converges with respect to spatial and time step, stability analysis of the explicit and implicit finite difference method, analysis of the time complexity and how the option price and gamma are related.
 
-Below are plots of the implicit solver, stability analysis of the implicit solver and time complexity of the finite difference methods:
+Below are plots of the implicit solver, stability analysis of the implicit solver and time complexity of the finite difference methods: (in that order from left to right):
 
 <div class="align-center"> 
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/implicit.png" width="400" height="300"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/unstable.png" width="400" height="300"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/Complexity.png" width="400" height="300"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/implicit.png" width="320" height="270"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/unstable.png" width="320" height="270"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/Complexity.png" width="320" height="270"/>
 </div>
 
 -----------
@@ -56,6 +55,13 @@ Below are plots of the implicit solver, stability analysis of the implicit solve
 ### Assignment 3 Comparison of monte-carlo method vs finite difference methods
 
 Here we compare the Monte-Carlo method with the finite difference methods. The analysis includes comparison of convergence, time complexity and computations of the greeks (delta), see https://en.wikipedia.org/wiki/Greeks_(finance).
+
+Below are images of the computed deltas using implicit finite difference method and monte-carlo method (in that order from left to right):
+
+<div class="align-center"> 
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%203/Images/Implicit_Delta.png" width="500" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%203/Images/MC_Delta.png" width="500" height="350"/>
+</div>
 
 -----------
 <!-- Assignment 4 Chooser options using monte-carlo methods -->
@@ -65,12 +71,26 @@ Here we modify the previous Monte-Carlo code to price a simple chooser option. W
 
 The experiment includes: convergence analysis of both the pseudo and the quasi Monte-Carlo method and computations of the greeks (delta).
 
+Below are images of the error analysis using pseudo and quasi random numbers, and of computations of the delta (in that order from left to right):
+
+<div class="align-center"> 
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/all.png" width="500" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/delta.png" width="500" height="350"/>
+</div>
+
 -----------
 <!-- Assignment 5 American options using finite difference methods, PSOR and operator splittings -->
 ### Assignment 5 American options using finite difference methods, PSOR and operator splittings
 
-Here we implement a finite difference solver to price American options. We also implement both the PSOR and the operator splitting method, see http://www.homepages.ucl.ac.uk/~ucahwts/lgsnotes/AmericanPSOR.pdf, and https://core.ac.uk/download/pdf/82462918.pdf.
+Here we implement a finite difference solver to price American options. We also implement both the projected successive overrelaxation method (PSOR) and the operator splitting method (OS), see http://www.homepages.ucl.ac.uk/~ucahwts/lgsnotes/AmericanPSOR.pdf, and https://core.ac.uk/download/pdf/82462918.pdf.
 
+Below are images of the solution using both the PSOR and the OS method, aswell as the early exercise curve (in that order from left to right):
+
+<div class="align-center"> 
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/psor.png" width="320" height="270"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/call.png" width="320" height="270"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/early.png" width="320" height="270"/>
+</div>
 
 <!-- Getting Started -->
 ## Getting Started
@@ -96,20 +116,6 @@ Go to the project directory
 ```
 
 and navigate to one of the assignment folders. Open the folder in MATLAB, and run the .mlx live scripts. If you don't have the ability to run MATLAB, you can see the .pdf-files.
-
-<!-- Usage -->
-## Usage
-
-Use this space to tell a little more about your project and how it can be used. Show additional screenshots, code samples, demos or link to other resources.
-
-
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
-```
 
 
 <!-- Contact -->
