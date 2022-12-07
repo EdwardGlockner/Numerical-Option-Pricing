@@ -45,9 +45,9 @@ The experiment includes: how the error converges with respect to spatial and tim
 Below are plots of the implicit solver, stability analysis of the implicit solver and time complexity of the finite difference methods: (in that order from left to right):
 
 <div class="align-center"> 
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/implicit.png" width="320" height="270"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/unstable.png" width="320" height="270"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/Complexity.png" width="320" height="270"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/implicit.png" width="300" height="250"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/unstable.png" width="300" height="250"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/Complexity.png" width="300" height="250"/>
 </div>
 
 -----------
@@ -74,8 +74,8 @@ The experiment includes: convergence analysis of both the pseudo and the quasi M
 Below are images of the error analysis using pseudo and quasi random numbers, and of computations of the delta (in that order from left to right):
 
 <div class="align-center"> 
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/all.png" width="500" height="350"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/delta.png" width="500" height="350"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/all.png" width="450" height="330"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%204/Images/delta.png" width="450" height="330"/>
 </div>
 
 -----------
@@ -87,9 +87,9 @@ Here we implement a finite difference solver to price American options. We also 
 Below are images of the solution using both the PSOR and the OS method, aswell as the early exercise curve (in that order from left to right):
 
 <div class="align-center"> 
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/psor.png" width="320" height="270"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/call.png" width="320" height="270"/>
-  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/early.png" width="320" height="270"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/psor.png" width="300" height="250"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/call.png" width="300" height="250"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%205/Images/early.png" width="300" height="250"/>
 </div>
 
 <!-- Getting Started -->
