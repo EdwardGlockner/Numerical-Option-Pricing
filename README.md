@@ -115,7 +115,7 @@ Go to the project directory
   cd my-project
 ```
 
-and navigate to one of the assignment folders. Open the folder in MATLAB, and run the .mlx live scripts. If you don't have the ability to run MATLAB, you can see the .pdf-files.
+and navigate to one of the assignment folders. Open the folder in MATLAB. Drag the helper functions to the same directory as the .mlx file and run the live script. If you don't have the ability to run MATLAB, you can see the .pdf-files.
 
 
 <!-- Contact -->
