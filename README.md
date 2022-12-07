@@ -7,7 +7,6 @@
   * [Comparison of monte-carlo method vs finite difference methods](#comparison-of-monte-carlo-method-vs-finite-difference-methods)
   * [Chooser options using monte-carlo methods](#chooser-options-using-monte-carlo-methods)
   * [American options using finite difference methods, PSOR and operator splittings](#american-options-using-finite-difference-methods-psor-and-operator-splittings)
-  * [Screenshots](#screenshots)
 
 - [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
@@ -29,42 +28,43 @@ This project is based on the course: "Computational Finance: Pricing and Valuati
 The project is divided into five folders containing one assignment each. Every folder contains the assignment description named: "Assignment{x}.pdf", a solution to the assignment named "Solution{x}.pdf" or "Solution{x}.mlx" (for MATLAB live scripts), aswell as all the helper functions used in the assignment.
 
 <!-- European options using monte-carlo methods -->
-### European options using monte-carlo methods
+### :one: European options using monte-carlo methods
 
 Here we implement a Monte-Carlo method using Euler's scheme to price a European call option assuming the underlying stock follows a constant elasticity of variance model (CEV model), see: https://en.wikipedia.org/wiki/Constant_elasticity_of_variance_model.
 
 The experiment includes: how the error converges with respect to discretization error and sample error, implementing antithetic variates and how the option price and gamma are related.
 
 <!-- European options using finite difference methods -->
-### European options using finite difference methods
+### :two: European options using finite difference methods
 
 Here we implement a (both explicit and implicit) finite difference method to price a European call option, when the underlying stock follows a CEV model.
 
 The experiment includes: how the error converges with respect to spatial and time step, stability analysis of the explicit and implicit finite difference method, analysis of the time complexity and how the option price and gamma are related.
 
+Below are plots of the implicit solver, stability analysis of the implicit solver and time complexity of the finite difference methods:
+
+<div class="align-center"> 
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/implicit.png" width="400" height="300"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/unstable.png" width="400" height="300"/>
+  <img src="https://github.com/EdwardGlockner/Pricing-of-Financial-Options/blob/main/Assignment%202/Images/Complexity.png" width="400" height="300"/>
+</div>
+
 <!-- Comparison of monte-carlo method vs finite difference methods -->
-### Comparison of monte-carlo method vs finite difference methods
+### :three: Comparison of monte-carlo method vs finite difference methods
 
 Here we compare the Monte-Carlo method with the finite difference methods. The analysis includes comparison of convergence, time complexity and computations of the greeks (delta), see https://en.wikipedia.org/wiki/Greeks_(finance).
 
 <!-- Chooser options using monte-carlo methods -->
-### Chooser options using monte-carlo methods
+### :four: Chooser options using monte-carlo methods
 
 Here we modify the previous Monte-Carlo code to price a simple chooser option. We also implement a quasi Monte-Carlo using both the low discrepancy Halton and the Sobol sequence to increase the convergence rate.
 
 The experiment includes: convergence analysis of both the pseudo and the quasi Monte-Carlo method and computations of the greeks (delta).
 
 <!-- American options using finite difference methods, PSOR and operator splittings -->
-### American options using finite difference methods, PSOR and operator splittings
+### :five: American options using finite difference methods, PSOR and operator splittings
 
 Here we implement a finite difference solver to price American options. We also implement both the PSOR and the operator splitting method, see http://www.homepages.ucl.ac.uk/~ucahwts/lgsnotes/AmericanPSOR.pdf, and https://core.ac.uk/download/pdf/82462918.pdf.
-
-<!-- Screenshots -->
-### Screenshots
-
-<div align="center"> 
-  <img src="https://placehold.co/600x400?text=Your+Screenshot+here" alt="screenshot" />
-</div>
 
 
 <!-- Getting Started -->
